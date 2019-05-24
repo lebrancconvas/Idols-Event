@@ -1,19 +1,36 @@
 <template>
     <div class="list-box">
-        <div class="name-list">Idol Expo</div>
+        <div class="name-list">
+            <h3>{{eventname}}</h3>
+            Date: <h5>{{eventdate}}</h5>
+            Place: <h5>{{eventplace}}</h5>
+        </div>
+        
     </div>
 </template>
 
 <script>
 export default {
-    name: 'List'
+    name: 'List',
+    props: {
+        eventname: String,
+        eventdate: String,
+        eventplace: String
+    },
+    data() {
+        return {
+            eventname: '',
+            eventdate: '',
+            eventplace: ''
+        }
+    }
 }
 </script>
 
 <style>
     .list-box {
         padding: 10px;
-        margin: 2%;
+        margin: 20px;
         border-radius: 8px;
         background: white;
         width: 20%;

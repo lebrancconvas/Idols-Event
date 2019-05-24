@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <Header />
-    <List />
+    <List eventname="Idol Expo 2019" eventdate="30-05-2019" eventplace="Bitec Bangna"/>
+    <List eventname="FESTIVE Idol Festival" eventdate="02-06-2019" eventplace="Siam Square" />
   </div>
 </template>
 
@@ -9,13 +10,15 @@
 import Header from './components/Header.vue'
 import NavBar from './components/NavBar.vue'
 import List from './components/List.vue'
+import AddEvent from './components/AddEvent'
 
 export default {
   name: 'app',
   components: {
     Header,
     NavBar,
-    List
+    List,
+    AddEvent
   }
 }
 </script>
