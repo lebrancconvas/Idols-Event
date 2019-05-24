@@ -1,12 +1,12 @@
 <template>
   <div>
-    
+    <h1>Idol Event</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Header',
   props: {
     msg: String
   }
@@ -15,5 +15,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  h1 {
+    font-family: 'Gulim'
+  }
 </style>
