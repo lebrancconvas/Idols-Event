@@ -1,8 +1,19 @@
 <template>
   <div id="app">
     <Header />
-    <List eventname="Idol Expo 2019" eventdate="30-05-2019" eventplace="Bitec Bangna"/>
-    <List eventname="FESTIVE Idol Festival" eventdate="02-06-2019" eventplace="Siam Square" />
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>
+          <List eventname="Idol Expo 2019" eventdate="30-05-2019" eventplace="Bitec Bangna"/>
+        </b-col>
+        <b-col>
+          <List eventname="FESTIVE Idol Festival" eventdate="02-06-2019" eventplace="Siam Square" />
+        </b-col>
+        <b-col>
+          <List eventname="Cat Expo" eventdate="02-06-2019" eventplace="Airport Link - Makkasan Station" />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 

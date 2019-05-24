@@ -33,8 +33,8 @@ export default {
         margin: 20px;
         border-radius: 8px;
         background: white;
-        width: 20%;
-        height: 50%;
+        width: 300px;
+        height: 230px;
         box-shadow: 3px 3px 2px;
         transform: scale(1);
         transition: 0.8s;
@@ -48,6 +48,7 @@ export default {
     .name-list {
         font-size: 18px;
         font-family: 'Gulim';
+        height: 50%;
         background: white;
     }
 </style>
