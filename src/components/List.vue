@@ -5,7 +5,6 @@
             Date: <h5>{{eventdate}}</h5>
             Place: <h5>{{eventplace}}</h5>
         </div>
-        
     </div>
 </template>
 
