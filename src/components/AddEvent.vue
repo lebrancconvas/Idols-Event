@@ -4,13 +4,13 @@
             <form id="form-event">
                 <h1>Add Event</h1>
                 <div id="event">
-                    Name <input type="text">
+                    Name <input v-model="nameevent" :class="[nameevent.length < 1 ? 'empty' : 'fill']" type="text" id="nameevent">
                 </div>
                 <div id="event">
-                    Date <input type="date" name="" id="">
+                    Date <input v-model="dateevent" :class="[dateevent.length < 1 ? 'empty' : 'fill']" type="date" name="" id="dateevent">
                 </div>
                 <div id="event">
-                    Place <input type="text">
+                    Place <input v-model="placeevent" :class="[placeevent.length < 1 ? 'empty' : 'fill']" type="text" id="placeevent">
                 </div>
                 <div id="submit">Submit</div>
                 <div id="cancel" @click="exitAddEvent">Cancel</div>
@@ -37,6 +37,13 @@
 <script>
 export default {
     name: 'AddEvent',
+    data() {
+        return {
+            nameevent: '',
+            dateevent: '',
+            placeevent: ''
+        }
+    },
     methods: {
         showAddEvent: function() {
             document.getElementById('add-box').style.display = 'block'
@@ -154,5 +161,13 @@ export default {
 
     #form-event > h1 {
         font-family: 'Gulim';
+    }
+
+    .empty {
+        border: 2px solid red;
+    }
+
+    .fill {
+        border: 2px solid green;
     }
 </style>
