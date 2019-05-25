@@ -18,6 +18,9 @@
         <b-col>
           <List eventname="Blackpink : Kill this love in your area - Live in Bangkok" eventdate="31-09-2019" eventplace="Impact Arena Muangthong-Thani" />
         </b-col>
+        <b-col>
+          <List eventname="Jaigayray Concert" eventdate="30-10-2019" eventplace="GMM Live House @ Centralworld" />
+        </b-col>
       </b-row>
     </b-container>
   </div>
