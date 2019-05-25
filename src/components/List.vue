@@ -38,6 +38,7 @@ export default {
         box-shadow: 3px 3px 2px;
         transform: scale(1);
         transition: 0.8s;
+        cursor: zoom-in;
     }
 
     .list-box:hover {
