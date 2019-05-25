@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <AddEvent />
-    <b-container class="bv-example-row">
+    <b-container>
       <b-row>
         <b-col>
           <List eventname="Idol Expo 2019" eventdate="30-05-2019" eventplace="Bitec Bangna"/>
@@ -12,6 +12,11 @@
         </b-col>
         <b-col>
           <List eventname="Cat Expo" eventdate="02-06-2019" eventplace="Airport Link - Makkasan Station" />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <List eventname="Blackpink : Kill this love in your area - Live in Bangkok" eventdate="31-09-2019" eventplace="Impact Arena Muangthong-Thani" />
         </b-col>
       </b-row>
     </b-container>
