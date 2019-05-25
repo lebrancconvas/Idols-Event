@@ -20,7 +20,12 @@
             <b-row>
                 <b-col>
                     <div class="add-event-button" @click="showAddEvent">
-                        <div class="content-button">Add Event</div>
+                        <div class="content-button">Add</div>
+                    </div>
+                </b-col>
+                <b-col>
+                    <div class="add-event-button">
+                        <div class="content-button">Search</div>
                     </div>
                 </b-col>
                 <b-col>
