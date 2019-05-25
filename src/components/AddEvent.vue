@@ -1,9 +1,6 @@
 <template>
-    <div>
-        <h2>Add Event</h2>
-        <textarea name="event" id="event" cols="20" rows="3"></textarea>
-        <br>
-        <button>Add</button>
+    <div class="add-event-button">
+        Add Event
     </div>
 </template>
 
@@ -14,13 +11,21 @@ export default {
 </script>
 
 <style>
-    h2 {
-        font-size: 19px;
-        font-family: 'Segoe Print'
+   .add-event-button {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 10px;
+       margin: 10px;
+       width: 20%;
+       height: auto;
+       border-radius: 8px;
+       background: #ffa358;
+       transform: scale(1);
+       transition: 0.2s;
     }
-    #event {
-        background: white;
-        border-radius: 10px;
-        box-shadow: 2px 2px 3px;
+
+    .add-event-button:active {
+        transform: scale(.97)
     }
 </style>

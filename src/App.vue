@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <AddEvent />
     <b-container class="bv-example-row">
       <b-row>
         <b-col>

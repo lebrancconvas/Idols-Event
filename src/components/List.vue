@@ -28,19 +28,20 @@ export default {
 
 <style>
     .list-box {
+        display: block;
         padding: 10px;
         margin: 20px;
         border-radius: 8px;
         background: white;
         width: 300px;
-        height: 230px;
+        height: auto;
         box-shadow: 3px 3px 2px;
         transform: scale(1);
         transition: 0.8s;
     }
 
     .list-box:hover {
-        box-shadow: 3px 4px 3px;
+        box-shadow: 7px 7px 3px;
         transform: scale(1.1);
     }
 
