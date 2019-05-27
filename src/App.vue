@@ -31,6 +31,7 @@ import Header from './components/Header.vue'
 import NavBar from './components/NavBar.vue'
 import List from './components/List.vue'
 import AddEvent from './components/AddEvent'
+import Api from './components/Api.vue'
 
 export default {
   name: 'app',
@@ -38,7 +39,8 @@ export default {
     Header,
     NavBar,
     List,
-    AddEvent
+    AddEvent,
+    Api
   }
 }
 </script>
